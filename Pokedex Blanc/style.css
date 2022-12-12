@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./Font/Poppins-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 15px;
+    height: auto;
+}
+
+section {
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+#pokeball {
+    height: 30px;
+}
+
+#box1 {
+    opacity: 0;
+    display: none;
+    /* --- JE CACHE ---- */
+
+}
+
+.box {
+    background-color: white;
+    height: 128px;
+    width: 118px;
+    border-radius: 10px;
+    border: solid 1px #bbb;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.p {
+    display: flex;
+    color: #bbb;
+    font-size: 12px;
+    margin-right: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: white;
+    justify-content: end;
+}
+
+.box>img {
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+    justify-content: center;
+
+    background-color: white;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.name {
+    color: white;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #bbb;
+    padding-bottom: 7px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 119px;
+}
+
+.wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    display: flex;
+    text-align: center;
+}
+
+.types {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.type1 {
+    background-color: red;
+    width: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.type2 {
+    background-color: blue;
+    width: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.height {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
